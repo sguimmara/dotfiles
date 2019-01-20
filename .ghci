@@ -1,0 +1,18 @@
+-- OverloadedStrings is often useful.
+:set -XOverloadedStrings
+
+-- Scoped type variables is often useful so we can specify the types
+-- of variables (for example, in lambda expressions).
+:set -XScopedTypeVariables
+
+-- useful for import from specified package
+:set -XPackageImports
+
+-- :set prompt "\ESC[1;34m%s\n\ESC[0;34mλ> \ESC[m"
+:set prompt "\ESC[0;34mλ> \ESC[m"
+
+-- Show the types of evaluated expressions
+:set +t
+
+-- And stats
+:set +s
