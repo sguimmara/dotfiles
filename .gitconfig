@@ -1,0 +1,8 @@
+[alias]
+    st = status -s
+    lg = log --oneline
+[user]
+    email = sguimmara@pobox.com
+    name = Sébastien Guimmara
+[core]
+    editor = subl -nw
