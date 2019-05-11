@@ -6,7 +6,7 @@
 	email = sguimmara@pobox.com
 	name = Sébastien Guimmara
 [core]
-	editor = subl -nw
+	editor = code --wait
 [color]
 	ui = auto
 [core]
